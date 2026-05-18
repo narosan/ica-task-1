@@ -7,7 +7,7 @@ API REST em Flask para criação e gerenciamento de documentos em arquivos `.txt
 ## 🗂️ Estrutura do Projeto
 
 ```
-PUC_ICA_TASK_1/
+ica-task-1/
 ├── models/
 │   └── document.py            # Dataclass — entidade principal
 ├── repositories/
@@ -50,8 +50,8 @@ PUC_ICA_TASK_1/
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/PUC_ICA_TASK_1.git
-cd PUC_ICA_TASK_1
+git clone https://github.com/seu-usuario/ica-task-1.git
+cd ica-task-1
 ```
 
 ### 2. Crie e ative o ambiente virtual
