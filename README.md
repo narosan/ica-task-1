@@ -79,6 +79,7 @@ flask run
 ```
 
 A API estará disponível em: `http://localhost:5000`
+
 O Swagger estará disponível em: `http://localhost:5000/apidocs`
 
 ---
@@ -105,6 +106,8 @@ docker run -p 5000:5000 -v $(pwd)/data:/app/data document-api
 > garantindo que os arquivos `.txt` **persistam** entre execuções do container.
 
 A API estará disponível em: `http://localhost:5000`
+
+O Swagger estará disponível em: `http://localhost:5000/apidocs`
 
 ---
 
