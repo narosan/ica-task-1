@@ -79,6 +79,7 @@ flask run
 ```
 
 A API estará disponível em: `http://localhost:5000`
+O Swagger estará disponível em: `http://localhost:5000/apidocs`
 
 ---
 
