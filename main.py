@@ -10,6 +10,10 @@ document_service = DocumentService(_repo)
 app = Flask(__name__)
 swagger = Swagger(app)
 
+@app.route("/")
+def index():
+    return "Hello!"
+
 @app.route('/create', methods=['POST'])
 def create_document():
     """

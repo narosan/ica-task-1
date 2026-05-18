@@ -8,7 +8,12 @@ ENV PYTHONUNBUFFERED=1
 # Evita geração de .pyc desnecessários dentro do container
 ENV PYTHONDONTWRITEBYTECODE=1
 
+ENV FLASK_APP=main.py    
+
 WORKDIR /app
+
+COPY requirements.txt .          
+RUN pip install --no-cache-dir -r requirements.txt 
 
 # Copia o projeto
 COPY . .
